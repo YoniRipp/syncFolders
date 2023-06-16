@@ -38,8 +38,8 @@ class Sync:
     def runRecurse(self,sourceSubPath,replicaSubPath):
         ## Compare Files top down.
         ## Find all files and directories of both paths.
-        ## 1) Remove all Items and files that are replica and not in source.
-        ## 2) Create all items and files that are in source and nost in replica.
+        ## 1) Create all items and files that are in source and not in replica.
+        ## 2) Remove all Items and files that are replica and not in source.
         ## 3) Copy all items that are in source but are changed in replica.
 
         ##Init params 
